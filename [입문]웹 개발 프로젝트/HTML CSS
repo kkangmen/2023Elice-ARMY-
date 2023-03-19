@@ -1,1 +1,54 @@
-TEST
+-HTML: Hyper Text Markup Language
+웹 사이트에서 눈에 보이는 정보나 특정구역을 설정할 때 사용하는 언어
+
+-HTML 기본 구조
+<!DOCTYPE html>              //HTML5 문서 선언
+<html>                       //HTML 문서의 시작과 끝
+<head>                       //문서와 관련된 요약 정보 정리 (웹사이트 노출 x)
+  <meta charset="UTF-8">     //문자 코드(character setting의 약자) '모든 문자를 깨짐없이 표시하겠다'
+  <title>프로그래밍</title>  //웹사이트 탭 제목
+</head>
+<body>                       //웹사이트 내용
+</body>
+</html>
+
+-<a> 태그
+<a href = "https://www.naver.com" target = "_blank"> 네이버 </a>
+target 속성: 어떤 방식으로 페이지로 이동할지 결정
+"_blank": 새 탭을 띄워서 웹사이트 전환
+"_self": 현재 탭에서 웹사이트 전환(디폴트 값)
+
+-<img> 태그
+<img src="logo.png" alt="회사로고">
+src 속성: 삽입할 이미지 파일 경로
+alt 속성: 이미지 출력 못할 시 텍스트 정보 대체
+
+-<h> 태그
+<h1> Hello World </h1>
+<h2> Hello World </h2>
+<h3> Hello World </h3>
+숫자 값이 클수록 폰트 사이즈 down 
+<h1>태그는 가장 중요한 정보이므로 문서에서 한번만 사용됨
+
+-<p> 태그
+<p>Nice to meet you </p>
+paragraph의 약자로 본문 내용 표현 
+
+-<ol>,<ul>,<li> 태그
+<ol>
+  <li>메뉴1</li>
+  <li>메뉴2</li>
+  <li>메뉴3</li>
+</ol> 
+Ordered list의 약자로 순서가 있는 리스트 생성
+
+<ul>
+  <li>메뉴1</li>
+  <li>메뉴2</li>
+  <li>메뉴3</li>
+<ul>
+Unordered list의 약자로 순서가 없는 리스트 생성
+*<li>태그: <ol>,<ul>의 각 항목을 나열할 때 사용
+
+
+
