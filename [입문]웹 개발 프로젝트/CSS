@@ -1,0 +1,47 @@
+CSS: Cascading Style Sheet
+
+-CSS 연동 방법 3가지
+1. Inline Style Sheet
+  <h1 style="color: red;"> Hello </h1>
+  태그 안에 직접 원하는 스타이르 적용
+  
+2. Internal Style Sheet
+  <head>
+    <style>
+      h1 {background-color: yellow;}
+    </style>
+  </head>
+
+3. External Style Sheet
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <link> 태그로 불러오기
+  가독성이 높고 유지 보수가 쉬움
+  
+-CSS 선택자: HTML의 어떤 요소에 CSS를 적용할 것인가
+1. Type Selector
+  <style>
+  h2 {color:red;}
+  </style>
+  특정 태그에 스타일을 적용
+2. Class Selector
+  <style>
+  .coding {color:blue;}
+  </style>
+  클래스 이름으로 특정 위치에 스타일을 적용
+3. ID Selector
+  <style>
+  #coding {color:blue;}
+  </style>
+  ID를 이용하여 스타일을 적용
+  
+-CSS 주요 속성
+  <p class="paragraph"> 프로그래밍을 배워봐요! </p>
+  .paragraph {width:500px; height: 500px;}
+  width 속성: 고정값(px), 가변값(%)
+  height 속성
+  - font
+  - border 
+  -background
+  
