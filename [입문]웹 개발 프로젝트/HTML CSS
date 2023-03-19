@@ -12,6 +12,7 @@
 </body>
 </html>
 
+------------HTML 기본 태그----------------
 -<a> 태그
 <a href = "https://www.naver.com" target = "_blank"> 네이버 </a>
 target 속성: 어떤 방식으로 페이지로 이동할지 결정
@@ -50,5 +51,35 @@ Ordered list의 약자로 순서가 있는 리스트 생성
 Unordered list의 약자로 순서가 없는 리스트 생성
 *<li>태그: <ol>,<ul>의 각 항목을 나열할 때 사용
 
+----------구조를 잡을 때 사용하는 태그------------
+-<header>, <nav> 태그
+<header>   //상단 영역     
+  <nav>    //메뉴 영역
+  </nav>
+</header> 
 
+<header>태그: 웹 사이트의 머리글을 담는 공간
+<nav>태그: 메뉴 버튼을 담는 공간(Navigation) <ul>,<li>,<a>와 함께 사용
 
+-<main>태그
+<main role="main"> //본문 영역
+  <article>        //정보 영역
+  </article>
+</main> 
+문서의 주요 내용을 담는 태그 
+<h#>태그가 <article>태그 내에 존재하여야 함
+
+-<fooer>태그
+<footer>
+  <div>
+    <p>
+    </p>
+  </div>
+</footer>
+가장 하단에 들어가는 정보를 표기할 때 사용
+<div>태그: 임의의 공간을 만들때 사용
+
+--------------- HTML 태그의 두 가지 성격 -----------------
+-Block 요소와 Inline 요소
+Block 요소: <p> -> y축 정렬
+Inline 요소: <a> -> x축 정렬
